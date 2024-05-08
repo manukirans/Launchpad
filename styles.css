@@ -1,0 +1,178 @@
+body {
+  font-family: 'Roboto', sans-serif;  
+  margin: 0; 
+  padding: 0;
+  
+}
+
+
+
+.container { 
+  width: 100%; 
+  max-width: 700px; 
+  margin: 20px auto; 
+  padding: 25px; 
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  background-image: url('assets/background.jpg');
+  background-blend-mode: color-burn; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center center; 
+  position: relative; 
+}
+
+
+
+
+.container * {
+  color: rgb(255, 255, 255); 
+}
+.latest-updates * {
+  color: black; 
+}
+.update-heading {
+  color: rgb(255, 255, 255); 
+}
+
+h1, h2 { 
+  color: #ffffff;
+  text-align: center;
+} 
+
+.button { 
+  display: block;
+  background-color: transparent; /* Set background color to transparent */
+  color: #e66701; /* Set text color to orange */
+  padding: 12px 20px;
+  text-decoration: none;
+  border: 2px solid #e66701; /* Set border color to orange */
+  border-radius: 4px;
+  font-size: 18px;
+  text-align: center; /* Center-align text */
+  font-weight: bold; /* Make text bold */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Add transition effect */
+  margin: 15px auto; /* Center the button */
+}
+
+.update-card {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.button:hover {
+  background-color: #e66701; /* Change background color to orange on hover */
+  color: white; /* Change text color to white on hover */
+}
+
+.event-roadmap {
+  margin-bottom: 30px;
+  text-align: center; 
+
+}
+
+
+.timeline {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.timeline li {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.timeline li:last-child {
+  border-bottom: none;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+}
+
+.step-number {
+    color: #e66701;
+    text-align: center;
+    line-height: 23px;
+    font-weight: bolder;
+    margin-right: 5px;
+    font-size: 18px;
+    
+    
+}
+
+.step-content {
+  flex-grow: 1;
+  text-align: left;
+  padding: 0 20px;
+  
+}
+.step-content ul {
+  list-style: none; 
+  padding: 0; 
+}
+
+.step-content h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #ffffff; 
+
+
+  
+
+}
+.step-content p {
+  margin-top: 5px;
+  color: #333; 
+}
+
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) { 
+  .step-number {
+    font-size: 18px;
+    line-height: 36px;
+}
+.step-content h3 {
+    font-size: 18px;
+}
+.step-content p {
+    font-size: 16px;
+}
+.button {
+    font-size: 16px;
+    padding: 10px 16px;
+}
+  .container { 
+      width: 95%; 
+  }
+  h1 { 
+      font-size: 26px; 
+  } 
+  h2 { 
+      font-size: 20px; 
+  }
+}
+
+/* Social Media Styling */
+.container section:last-child { 
+  text-align: center;
+}
+
+.container a { 
+  margin: 0 10px;
+}
+
+.container a img {
+  opacity: 0.8; 
+  transition: opacity 0.3s ease; 
+}
+
+.container a img:hover {
+  opacity: 1; 
+}
